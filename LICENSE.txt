@@ -1,0 +1,31 @@
+Copyright (c) 2026 Sebastian Polkehn. Alle Rechte vorbehalten.
+
+Diese Software ("Ballista Prüfplan") und der zugehoerige
+Quellcode sind urheberrechtlich geschuetzt.
+
+Es ist ohne ausdrueckliche schriftliche Genehmigung des Rechteinhabers NICHT
+gestattet:
+
+  1. den Quellcode oder Teile davon zu kopieren, zu veraendern, zu verbreiten
+     oder oeffentlich zugaenglich zu machen,
+  2. die Software oder Teile davon in eigene Produkte, Bibliotheken oder
+     Dienste zu integrieren,
+  3. die Software zu dekompilieren, zurueckzuentwickeln (Reverse Engineering)
+     oder aus dem kompilierten Zustand wiederherzustellen, soweit dies nicht
+     durch zwingendes gesetzliches Recht erlaubt ist,
+  4. die Software zu vermieten, zu verleasen, zu verleihen, weiterzuverkaufen
+     oder sonst kommerziell zu verwerten.
+
+Zum Zweck der Beta-Erprobung eingeraeumte Nutzungsrechte sind zeitlich befristet,
+nicht uebertragbar und beschraenken sich auf die interne Nutzung durch die
+ausdruecklich eingeladenen Testerinnen und Tester. Ein Anspruch auf Weiterentwicklung,
+Support oder eine spaetere Vollversion besteht nicht.
+
+Die Software wird "wie besehen" ("as is") bereitgestellt, ohne jegliche
+ausdrueckliche oder stillschweigende Gewaehrleistung, insbesondere ohne
+Gewaehrleistung der Marktgaengigkeit, Eignung fuer einen bestimmten Zweck oder
+Nichtverletzung von Rechten Dritter. In keinem Fall haftet der Rechteinhaber
+fuer Schaeden, die aus der Nutzung oder Nicht-Nutzung der Software entstehen,
+soweit gesetzlich zulaessig.
+
+Kontakt: polkehn.sebastian@googlemail.com
