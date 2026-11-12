@@ -62,7 +62,14 @@ Die aktuelle Version findest du im Bereich **[Releases](../../releases)** rechts
 
 ### Optional: Texterkennung für Scans und Bilder
 
-Für PDFs direkt aus dem CAD ist nichts weiter nötig. Nur für gescannte Zeichnungen und Bilder (PNG/JPG) braucht Ballista das kostenlose Programm **Tesseract-OCR**:
+Ob du Tesseract brauchst, hängt davon ab, wie die Zeichnung entstanden ist, nicht vom Dateiformat:
+
+- **PDF direkt aus dem CAD**: nichts weiter nötig. Ballista liest die Maße direkt aus der Datei.
+- **Gescannte PDF** sowie **Bilder (PNG/JPG)**: Ballista braucht das kostenlose Programm **Tesseract-OCR**. Auch eine PDF kann ein Scan sein, etwa eine eingescannte Papierzeichnung.
+
+**So erkennst du den Unterschied:** Öffne die PDF in einem PDF-Viewer und versuche, eine Maßzahl mit der Maus zu markieren. Lässt sich der Text markieren, stammt die PDF aus dem CAD. Lässt er sich nicht markieren, ist es ein Scan.
+
+Installation von Tesseract-OCR:
 
 1. Den Windows-Installer von der [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) herunterladen (64-Bit)
 2. Installieren und den vorgeschlagenen Ordner `C:\Program Files\Tesseract-OCR` beibehalten
@@ -84,7 +91,7 @@ Diese Version wird aktuell zur unabhängigen Erprobung bereitgestellt. Feedback 
 
 - Windows 10 oder 11 (64-Bit)
 - Ca. 200 MB freier Speicherplatz
-- Optional: Tesseract-OCR für die Texterkennung bei Scans und Bildern
+- Optional: Tesseract-OCR für die Texterkennung bei gescannten PDFs und Bildern
 
 ---
 

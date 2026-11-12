@@ -47,7 +47,7 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 - [ ] Die Art lässt sich per Doppelklick auf den Ballon nachträglich wählen
 
 ## 6. Scans und Bilder (Texterkennung)
-Nur nötig, wenn du mit gescannten Zeichnungen arbeitest. Voraussetzung: Tesseract-OCR ist installiert (siehe README).
+Nur nötig, wenn du mit gescannten Zeichnungen arbeitest, auch gescannte PDFs zählen dazu. Voraussetzung: Tesseract-OCR ist installiert (siehe README).
 - [ ] Ohne Tesseract erscheint beim Auto-Stempeln eines Scans eine verständliche Meldung, die App stürzt nicht ab
 - [ ] Mit Tesseract werden Maße auf einem Scan oder Bild erkannt (Klick, Bereich und Auto-Stempeln)
 - [ ] Die erste Erkennung dauert einige Sekunden, danach reagiert die App normal
