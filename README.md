@@ -38,6 +38,8 @@ Werkzeug zur schnellen Erstellung von Erstmusterprüfberichten (EMPB / PPAP / VD
 - Winkel: Die Allgemeintoleranz nach ISO 2768 richtet sich nach der Länge des kürzeren Schenkels. Dafür gibt es im Merkmal-Dialog das neue Feld „Schenkellänge (mm)". Ohne Angabe bleibt die Toleranz leer.
 - Q-DAS-Export: Merkmalsart (K2004) korrigiert
 - Die Erkennung funktioniert auch nach dem Drehen der Zeichnung
+- Neue PDF-Grundlage: Anzeige, Texterkennung und PDF-Export laufen über frei lizenzierte Bibliotheken. Der PDF-Export übernimmt jetzt auch Kommentare und Abdeckungen aus der Original-PDF an der richtigen Stelle, auch bei gedrehter Zeichnung.
+- Auslieferung als ZIP-Datei mit Programmordner statt einer einzelnen `.exe`
 
 ### Hinweise zur automatischen Erkennung
 
@@ -55,8 +57,11 @@ Die aktuelle Version findest du im Bereich **[Releases](../../releases)** rechts
 **So gehts:**
 
 1. Rechts auf **Releases** klicken
-2. Bei der neuesten Version den Download **`Ballista Pruefplan.exe`** (bzw. das Setup) herunterladen
-3. Ausführen – keine Installation von Python nötig
+2. Bei der neuesten Version **`Ballista_Pruefplan.zip`** herunterladen
+3. Die ZIP-Datei entpacken (Rechtsklick → **„Alle extrahieren…"**). Bitte nicht direkt aus der ZIP-Datei heraus starten.
+4. Im entpackten Ordner **`Ballista Pruefplan.exe`** starten – keine Installation von Python nötig
+
+Der Unterordner `_internal` gehört zum Programm und muss neben der `.exe` bleiben. Für den schnellen Start kannst du eine Verknüpfung zur `.exe` auf den Desktop legen (Rechtsklick → „Senden an" → „Desktop").
 
 **Hinweis zum ersten Start:** Windows kann bei nicht signierten Anwendungen die Meldung „Windows hat Ihren PC geschützt" anzeigen. Auf **„Weitere Informationen"** klicken und dann auf **„Trotzdem ausführen"**. Das ist bei Beta-Software normal.
 
@@ -90,7 +95,7 @@ Diese Version wird aktuell zur unabhängigen Erprobung bereitgestellt. Feedback 
 ## Systemvoraussetzungen
 
 - Windows 10 oder 11 (64-Bit)
-- Ca. 200 MB freier Speicherplatz
+- Ca. 300 MB freier Speicherplatz
 - Optional: Tesseract-OCR für die Texterkennung bei gescannten PDFs und Bildern
 
 ---
@@ -106,3 +111,7 @@ Copyright (c) 2026 Sebastian Polkehn. Alle Rechte vorbehalten.
 
 Proprietäre Software – siehe [LICENSE.txt](LICENSE.txt).
 Die Software darf ohne ausdrückliche schriftliche Zustimmung des Rechteinhabers weder kopiert, verändert, verbreitet noch kommerziell verwertet werden.
+
+### Komponenten von Drittanbietern
+
+Ballista Prüfplan enthält Open-Source-Bibliotheken, die unter ihren eigenen Lizenzen stehen, darunter PySide6/Qt (LGPL v3), pypdfium2/PDFium (Apache-2.0 / BSD-3-Clause), pypdf (BSD-3-Clause), Pillow, openpyxl und pytesseract. Eine Übersicht steht in der Datei `DRITTANBIETER-LIZENZEN.txt`, die vollständigen Lizenztexte im Ordner `Lizenzen` – beides liegt im Programmordner.

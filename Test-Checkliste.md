@@ -5,16 +5,19 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 **Zum Testen liegen im Repository zwei Beispielzeichnungen bereit** (`Testzeichnung_1_Flansch.pdf` und `Testzeichnung_2_Welle.pdf`). Danach am besten mit **eigenen Zeichnungen** aus dem Arbeitsalltag weitertesten – dort zeigt sich am besten, ob die Erkennung zuverlässig funktioniert.
 
 ## 1. Installation & erster Start
-- [ ] `Ballista Pruefplan.exe` (bzw. Setup) erfolgreich heruntergeladen
-- [ ] Die Anwendung lässt sich per Doppelklick starten
+- [ ] `Ballista_Pruefplan.zip` erfolgreich heruntergeladen und entpackt
+- [ ] `Ballista Pruefplan.exe` im entpackten Ordner lässt sich per Doppelklick starten
 - [ ] Bei der Windows-Warnung "Windows hat Ihren PC geschützt" konnte die App über "Weitere Informationen" → "Trotzdem ausführen" gestartet werden
-- [ ] Beim ersten Start dauert es 5–15 Sekunden – die App erscheint danach normal
+- [ ] Die App erscheint nach wenigen Sekunden
+- [ ] Im Programmordner liegen `DRITTANBIETER-LIZENZEN.txt` und der Ordner `Lizenzen`
 - [ ] Das Ballista-Logo wird oben links im Fenster und in der Taskleiste angezeigt
 
 ## 2. Datei laden
 - [ ] Eine der beiden Testzeichnungen (PDF) lässt sich über "Datei laden" öffnen
 - [ ] Die Zeichnung wird korrekt und scharf angezeigt
 - [ ] Ein Bild (PNG/JPG) lässt sich alternativ ebenfalls laden
+- [ ] Bei einer mehrseitigen PDF erscheint unten in der Statusleiste der Hinweis, dass Seite 1 bearbeitet wird
+- [ ] Kommentare oder Abdeckungen, die in der PDF eingefügt wurden, werden angezeigt
 - [ ] Beim Laden einer neuen Datei mit bereits gesetzten Ballons erscheint die Rückfrage "Möchten Sie speichern?"
 
 ## 3. Ballons von Hand setzen
@@ -80,6 +83,9 @@ Nur nötig, wenn du mit gescannten Zeichnungen arbeitest, auch gescannte PDFs z�
 
 ## 11. Export
 - [ ] PDF-Export funktioniert und zeigt die Ballons korrekt auf der Zeichnung
+- [ ] Die Zeichnung im exportierten PDF ist scharf (beim Hineinzoomen keine Pixel)
+- [ ] PDF-Export nach dem Drehen der Zeichnung (↺ / ↻): Ballons sitzen an der richtigen Stelle
+- [ ] PDF-Export einer Bild-Zeichnung (PNG/JPG) funktioniert
 - [ ] Excel-Export erstellt eine saubere, lesbare Tabelle
 - [ ] Q-DAS-Export (.dfq) lässt sich erzeugen (Format-Prüfung optional, falls du Q-DAS-Software hast)
 - [ ] Falls Q-DAS-Software vorhanden: Maße werden als variable Merkmale eingelesen
