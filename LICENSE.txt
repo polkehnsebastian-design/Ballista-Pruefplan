@@ -16,6 +16,14 @@ gestattet:
   4. die Software zu vermieten, zu verleasen, zu verleihen, weiterzuverkaufen
      oder sonst kommerziell zu verwerten.
 
+Komponenten von Drittanbietern: Die mit der Software ausgelieferten Open-Source-
+Komponenten (siehe DRITTANBIETER-LIZENZEN.txt und Ordner "Lizenzen") unterliegen
+ausschliesslich ihren eigenen Lizenzen; die vorstehenden Einschraenkungen gelten
+fuer sie nicht. Insbesondere duerfen die unter der GNU Lesser General Public
+License (LGPL) stehenden Bibliotheken (PySide6/Qt) ausgetauscht und fuer den
+eigenen Gebrauch veraendert werden; Reverse Engineering ist in dem Umfang
+gestattet, der zur Fehlersuche bei solchen Aenderungen erforderlich ist.
+
 Zum Zweck der Beta-Erprobung eingeraeumte Nutzungsrechte sind zeitlich befristet,
 nicht uebertragbar und beschraenken sich auf die interne Nutzung durch die
 ausdruecklich eingeladenen Testerinnen und Tester. Ein Anspruch auf Weiterentwicklung,
