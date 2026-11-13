@@ -85,7 +85,11 @@ Fehlt Tesseract, funktioniert alles andere wie gewohnt; Ballista weist beim Auto
 
 ## Beta-Test
 
-Diese Version wird aktuell zur unabhängigen Erprobung bereitgestellt. Feedback ist ausdrücklich erwünscht:
+Diese Version wird aktuell zur unabhängigen Erprobung bereitgestellt. Jede und jeder darf sie kostenlos testen.
+
+**Ablaufdatum:** Jede Beta-Version läuft drei Monate nach ihrer Veröffentlichung ab. Das Datum steht in der Titelleiste, zwei Wochen vorher erinnert Ballista beim Start daran. Danach einfach die neueste Version unter [Releases](../../releases) herunterladen – gespeicherte Projekte lassen sich weiter öffnen.
+
+Feedback ist ausdrücklich erwünscht:
 
 - **Fehler oder Verbesserungsvorschläge** bitte über [Issues](../../issues) melden
 - Test-Checkliste zum Abarbeiten: [`Test-Checkliste.md`](Test-Checkliste.md)

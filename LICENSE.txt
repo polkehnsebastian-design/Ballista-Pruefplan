@@ -24,10 +24,14 @@ License (LGPL) stehenden Bibliotheken (PySide6/Qt) ausgetauscht und fuer den
 eigenen Gebrauch veraendert werden; Reverse Engineering ist in dem Umfang
 gestattet, der zur Fehlersuche bei solchen Aenderungen erforderlich ist.
 
-Zum Zweck der Beta-Erprobung eingeraeumte Nutzungsrechte sind zeitlich befristet,
-nicht uebertragbar und beschraenken sich auf die interne Nutzung durch die
-ausdruecklich eingeladenen Testerinnen und Tester. Ein Anspruch auf Weiterentwicklung,
-Support oder eine spaetere Vollversion besteht nicht.
+Beta-Versionen: Jede Person darf eine Beta-Version der Software kostenlos zum
+Testen nutzen, und zwar bis zu dem Ablaufdatum, das die Software beim Start und in
+der Titelleiste anzeigt. Beta-Versionen duerfen nur aus dem offiziellen
+GitHub-Repository bezogen werden
+(https://github.com/polkehnsebastian-design/Ballista-Pruefplan). Weitergabe,
+Verkauf oder Bereitstellung ueber andere Wege sind nicht gestattet. Das
+Nutzungsrecht ist nicht uebertragbar. Ein Anspruch auf Weiterentwicklung, Support
+oder eine spaetere Vollversion besteht nicht.
 
 Die Software wird "wie besehen" ("as is") bereitgestellt, ohne jegliche
 ausdrueckliche oder stillschweigende Gewaehrleistung, insbesondere ohne
