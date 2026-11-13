@@ -11,6 +11,7 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 - [ ] Die App erscheint nach wenigen Sekunden
 - [ ] Im Programmordner liegen `DRITTANBIETER-LIZENZEN.txt` und der Ordner `Lizenzen`
 - [ ] Das Ballista-Logo wird oben links im Fenster und in der Taskleiste angezeigt
+- [ ] Die Titelleiste zeigt "Beta, gültig bis …" mit einem Datum etwa drei Monate nach der Veröffentlichung
 
 ## 2. Datei laden
 - [ ] Eine der beiden Testzeichnungen (PDF) lässt sich über "Datei laden" öffnen
