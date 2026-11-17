@@ -19,15 +19,16 @@ Werkzeug zur schnellen Erstellung von Erstmusterprüfberichten (EMPB / PPAP / VD
 - Automatische Erkennung von Durchmesser, Gewinde, Winkel, Radius, Fase, Rauheit, Toleranzen und Passungen – bei CAD-PDFs direkt aus der Textebene, bei Scans und Bildern per Texterkennung (OCR)
 - Erkennung von Form- und Lagetoleranzen (Toleranzrahmen) sowie Anzahlangaben wie „4x Ø6"
 - Normkonforme Toleranzberechnung nach ISO 286 (Passungen) und ISO 2768 (Allgemeintoleranzen, Längen bis 4000 mm)
+- Mehrere Merkmale auf einmal markieren und löschen (STRG + Ziehen, dann ENTF)
 - Undo / Redo für sicheres Arbeiten
 - Export als PDF (mit Ballons), Excel (VDA / PPAP) und Q-DAS (.dfq)
 - Diagnose-Export: zeigt, welchen Text Ballista auf einer Zeichnung liest
-- 46 automatisierte Tests sichern die Toleranzberechnung gegen bekannte Normwerte ab
 
 ### Neu in dieser Version
 
 - Auto-Stempeln für die ganze Zeichnung oder einen Bereich
-- Texterkennung für gescannte Zeichnungen und Bilder (benötigt Tesseract-OCR, siehe unten)
+- Texterkennung für gescannte Zeichnungen und Bilder (benötigt Tesseract-OCR, siehe unten) – auch für schräg stehende Maße, mit Erkennung des Durchmesserzeichens an seiner Form und von Toleranzrahmen
+- Mehrere Merkmale markieren und gemeinsam löschen: STRG + Ziehen, dann ENTF (ESC hebt die Markierung auf)
 - Form- und Lagetoleranzen werden erkannt; ist das Symbol nicht lesbar, wird „Form-/Lagetoleranz" eingetragen und die Art von Hand gewählt
 - Durchmesser- und Gradzeichen werden in allen gängigen Schreibweisen erkannt (Ø, ⌀, ∅, Φ bzw. °, º)
 - Ein Klick auf ein Maß liest das ganze zusammengehörige Textstück (z. B. „Ø20 H7")
@@ -40,11 +41,14 @@ Werkzeug zur schnellen Erstellung von Erstmusterprüfberichten (EMPB / PPAP / VD
 - Die Erkennung funktioniert auch nach dem Drehen der Zeichnung
 - Neue PDF-Grundlage: Anzeige, Texterkennung und PDF-Export laufen über frei lizenzierte Bibliotheken. Der PDF-Export übernimmt jetzt auch Kommentare und Abdeckungen aus der Original-PDF an der richtigen Stelle, auch bei gedrehter Zeichnung.
 - Auslieferung als ZIP-Datei mit Programmordner statt einer einzelnen `.exe`
+- Absturz beim Öffnen einer weiteren Zeichnung behoben; Fehler und Abstürze werden in Log-Dateien protokolliert
 
 ### Hinweise zur automatischen Erkennung
 
 - Die automatische Erkennung ist ein Vorschlag. Bitte jedes Merkmal gegen die Zeichnung prüfen, bevor ein Prüfbericht erstellt wird.
 - Bei Scans kann die Texterkennung Zeichen verwechseln, zum Beispiel Ø als 8 oder ± als +. Nach dem Auto-Stempeln nennt Ballista die Positionen, bei denen eine Toleranz möglicherweise unvollständig erkannt wurde.
+- Bei Scans dauert das Auto-Stempeln je nach PC etwa 5 bis 15 Sekunden.
+- Bekannte Schwäche bei Scans: senkrecht stehende Durchmesserangaben und sehr kleine, gestapelte Abmaße werden noch nicht immer richtig gelesen.
 - Hilfsmaße in Klammern werden nicht automatisch gestempelt.
 - Es wird die erste Seite einer PDF verarbeitet.
 
@@ -103,7 +107,7 @@ Feedback ist ausdrücklich erwünscht:
 ## Systemvoraussetzungen
 
 - Windows 10 oder 11 (64-Bit)
-- Ca. 300 MB freier Speicherplatz
+- Ca. 500 MB freier Speicherplatz
 - Optional: Tesseract-OCR für die Texterkennung bei gescannten PDFs und Bildern
 
 ---
@@ -122,4 +126,4 @@ Die Software darf ohne ausdrückliche schriftliche Zustimmung des Rechteinhabers
 
 ### Komponenten von Drittanbietern
 
-Ballista Prüfplan enthält Open-Source-Bibliotheken, die unter ihren eigenen Lizenzen stehen, darunter PySide6/Qt (LGPL v3), pypdfium2/PDFium (Apache-2.0 / BSD-3-Clause), pypdf (BSD-3-Clause), Pillow, openpyxl und pytesseract. Eine Übersicht steht in der Datei `DRITTANBIETER-LIZENZEN.txt`, die vollständigen Lizenztexte im Ordner `Lizenzen` – beides liegt im Programmordner.
+Ballista Prüfplan enthält Open-Source-Bibliotheken, die unter ihren eigenen Lizenzen stehen, darunter PySide6/Qt (LGPL v3), pypdfium2/PDFium (Apache-2.0 / BSD-3-Clause), pypdf (BSD-3-Clause), OpenCV und NumPy (Apache-2.0 / BSD-3-Clause), Pillow, openpyxl und pytesseract. Eine Übersicht steht in der Datei `DRITTANBIETER-LIZENZEN.txt`, die vollständigen Lizenztexte im Ordner `Lizenzen` – beides liegt im Programmordner.

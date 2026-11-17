@@ -20,6 +20,7 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 - [ ] Bei einer mehrseitigen PDF erscheint unten in der Statusleiste der Hinweis, dass Seite 1 bearbeitet wird
 - [ ] Kommentare oder Abdeckungen, die in der PDF eingefügt wurden, werden angezeigt
 - [ ] Beim Laden einer neuen Datei mit bereits gesetzten Ballons erscheint die Rückfrage "Möchten Sie speichern?"
+- [ ] Nach dem Stempeln lässt sich eine weitere Zeichnung öffnen, ohne dass das Programm abstürzt
 
 ## 3. Ballons von Hand setzen
 - [ ] Ein Ballon lässt sich per Linksklick auf ein Maß setzen
@@ -30,6 +31,8 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 - [ ] Ein Ballon lässt sich mit STRG+Linksklick löschen
 - [ ] Die Bereichs-Suche (Klick+Ziehen auf freier Fläche) setzt einen Ballon für den Text im aufgezogenen Bereich
 - [ ] Nach dem Drehen der Zeichnung (↺ / ↻) funktioniert die Erkennung per Klick weiterhin
+- [ ] STRG + Ziehen markiert alle Ballons im Bereich rot, ENTF löscht sie gemeinsam, ESC hebt die Markierung auf
+- [ ] Nach dem gemeinsamen Löschen werden die übrigen Ballons neu durchnummeriert, STRG+Z holt alle zurück
 
 ## 4. Auto-Stempeln
 - [ ] Der Knopf "Auto-Stempeln (alle Maße)" stempelt die Maße der Testzeichnung in einem Schritt
@@ -55,7 +58,10 @@ Nur nötig, wenn du mit gescannten Zeichnungen arbeitest, auch gescannte PDFs z�
 - [ ] Ohne Tesseract erscheint beim Auto-Stempeln eines Scans eine verständliche Meldung, die App stürzt nicht ab
 - [ ] Mit Tesseract werden Maße auf einem Scan oder Bild erkannt (Klick, Bereich und Auto-Stempeln)
 - [ ] Die erste Erkennung dauert einige Sekunden, danach reagiert die App normal
+- [ ] Schräg stehende Maße werden erkannt
 - [ ] Durchmesser (Ø) werden richtig gelesen – falls nicht, bitte Beispiel melden
+- [ ] Werte in Toleranzrahmen werden als "Form-/Lagetoleranz" erfasst
+- [ ] Blattrand (Feldeinteilung) und Schriftfeld werden nicht gestempelt
 - [ ] Toleranzen mit ± werden richtig übernommen – falls nicht, bitte Beispiel melden
 
 ## 7. Toleranzberechnung
@@ -99,7 +105,7 @@ Nur nötig, wenn du mit gescannten Zeichnungen arbeitest, auch gescannte PDFs z�
 
 ## 13. Allgemeiner Eindruck
 - Wie einfach war die Bedienung insgesamt (1 = sehr umständlich, 5 = sehr intuitiv)? ___
-- Ist etwas abgestürzt? Falls ja: Die Datei `emp_editor_crash.log` (liegt neben der `.exe`) bitte anhängen
+- Ist etwas abgestürzt? Falls ja: die Dateien `ballista_fehler.log` und `ballista_absturz.log` bitte anhängen. Sie liegen neben der `.exe` oder, falls dort nicht geschrieben werden darf, im Ordner `%LOCALAPPDATA%\Ballista`
 - Was hat gefehlt oder gestört?
 - Was hat besonders gut funktioniert?
 
@@ -111,6 +117,6 @@ Bitte für jeden gefundenen Fehler ein eigenes [GitHub Issue](../../issues/new) 
 2. **Was ist passiert?**
 3. **Was hättest du erwartet?**
 4. Screenshot (falls möglich)
-5. Inhalt von `emp_editor_crash.log`, falls die App abgestürzt ist
+5. Die Dateien `ballista_fehler.log` und `ballista_absturz.log`, falls die App abgestürzt ist (siehe Abschnitt 13)
 6. Bei Erkennungsfehlern: die Diagnose-Datei (siehe Abschnitt 12)
 7. Windows-Version (10 / 11)
