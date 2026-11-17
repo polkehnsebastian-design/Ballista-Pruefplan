@@ -2,7 +2,7 @@
 
 Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein Feedback direkt hier ein oder erstelle für jeden gefundenen Fehler ein eigenes GitHub Issue.
 
-**Zum Testen liegen im Repository zwei Beispielzeichnungen bereit** (`Testzeichnung_1_Flansch.pdf` und `Testzeichnung_2_Welle.pdf`). Danach am besten mit **eigenen Zeichnungen** aus dem Arbeitsalltag weitertesten – dort zeigt sich am besten, ob die Erkennung zuverlässig funktioniert.
+**Zum Testen liegen im Repository fünf Beispielzeichnungen bereit** (`Testzeichnung_1_Flansch.pdf` bis `Testzeichnung_5_Halter_schraeg.pdf`). Die Zeichnungen 3 bis 5 enthalten zusätzlich Passungen, Gewinde, schräge Maße sowie Form- und Lagetoleranzen. Danach am besten mit **eigenen Zeichnungen** aus dem Arbeitsalltag weitertesten – dort zeigt sich am besten, ob die Erkennung zuverlässig funktioniert.
 
 ## 1. Installation & erster Start
 - [ ] `Ballista_Pruefplan.zip` erfolgreich heruntergeladen und entpackt
@@ -14,7 +14,7 @@ Danke, dass du beim Testen hilfst! Bitte geh diese Punkte durch und trage dein F
 - [ ] Die Titelleiste zeigt "Beta, gültig bis …" mit einem Datum etwa drei Monate nach der Veröffentlichung
 
 ## 2. Datei laden
-- [ ] Eine der beiden Testzeichnungen (PDF) lässt sich über "Datei laden" öffnen
+- [ ] Eine der Testzeichnungen (PDF) lässt sich über "Datei laden" öffnen
 - [ ] Die Zeichnung wird korrekt und scharf angezeigt
 - [ ] Ein Bild (PNG/JPG) lässt sich alternativ ebenfalls laden
 - [ ] Bei einer mehrseitigen PDF erscheint unten in der Statusleiste der Hinweis, dass Seite 1 bearbeitet wird

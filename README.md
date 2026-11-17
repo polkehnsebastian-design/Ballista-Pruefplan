@@ -93,7 +93,11 @@ Feedback ist ausdrücklich erwünscht:
 
 - **Fehler oder Verbesserungsvorschläge** bitte über [Issues](../../issues) melden
 - Test-Checkliste zum Abarbeiten: [`Test-Checkliste.md`](Test-Checkliste.md)
-- Beispielzeichnungen zum Ausprobieren liegen im Repository: [`Testzeichnung_1_Flansch.pdf`](Testzeichnung_1_Flansch.pdf) und [`Testzeichnung_2_Welle.pdf`](Testzeichnung_2_Welle.pdf)
+- Beispielzeichnungen zum Ausprobieren liegen im Repository:
+  - [`Testzeichnung_1_Flansch.pdf`](Testzeichnung_1_Flansch.pdf) und [`Testzeichnung_2_Welle.pdf`](Testzeichnung_2_Welle.pdf)
+  - [`Testzeichnung_3_Antriebswelle.pdf`](Testzeichnung_3_Antriebswelle.pdf): Durchmesser mit Passungen, Gewinde, Fase, Radius, Rundlauf und Zylinderform
+  - [`Testzeichnung_4_Lagerflansch.pdf`](Testzeichnung_4_Lagerflansch.pdf): Lochkreis, Winkel, Position, Ebenheit und Parallelität
+  - [`Testzeichnung_5_Halter_schraeg.pdf`](Testzeichnung_5_Halter_schraeg.pdf): schräge Maße, Winkel und Rechtwinkligkeit
 - Wird auf einer Zeichnung etwas nicht oder falsch erkannt, hilft die Diagnose-Datei: Menü **Projekt-Aktionen → Diagnose: erkannten Text speichern**. Sie enthält nur Texte und Positionen, keine Geometrie.
 
 ## Systemvoraussetzungen
